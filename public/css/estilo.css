@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    font: 12px Arial, sans-serif;
+    background: url(/img/fundo.png) repeat-x;
+    background-color: #FFFFF0;
+}
+
+
+.logo{
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 25%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    background: url(/img/logo.png) no-repeat;
+    float: left;
+    text-indent: -999%;
+}
+
+#topo ul {
+    margin-left: 12%;
+}
+
+#topo ul li {
+    float: left;
+    margin-top: 3%;
+}
+
+#topo ul li a {
+    display: block;
+    padding: 1em 3.5em;
+    text-decoration: none;
+    color: white;
+}
+
+#topo ul a:hover {
+    color: bisque;
+}
+
+body.home #navegacao a#home,
+body.cinema #navegacao a#cinema,
+body.filme #navegacao a#filmes,
+body.login #navegacao a#login
+{
+    
+    color: bisque;
+}
+
+
+/* CONFIGURAR LAYOUT DE 2 COLUNAS*/
+
+#conteudo {
+    clear:both;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#duas-colunas #primario {
+    width: 98%;
+    margin-left: 1%;
+    
+}
+
+#primario {
+    width: 40%;
+    margin-left: 1%;
+    /*background: brown;*/
+    
+}
+
+#secundario {
+    width: 40%;
+    margin-left: 1%;
+    /*background: blueviolet;*/
+}
+
+#lateral {
+    width: 20%;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    font-size: 1.2em;
+}
+
+#busca{
+    text-align: center;
+    width: 90%;
+}
+
+#botao-busca{
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+    /*RODAPE*/
+#rodape{
+    height: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+    padding: 1%;
+    background: url(/img/fundo.png);
+}
+
+/* CAIXA */
+.caixa-lateral {
+    margin: 2%;
+    padding: 2%;
+    color: white;
+    padding-bottom: 20%;
+}
+
+.caixa-primaria{
+    margin: 2%;
+    padding: 0.3%;
+    color: white;
+    
+}
+
+.caixa-primaria-cinema{
+    padding: 1%;
+    color: white;
+    
+}
+
+.caixa-conteudo-lateral{
+    margin-top: 2%;
+    padding-left: 6%;
+    color: black;
+    
+}
+
+p{
+   padding: justify;
+   padding-left: 3%;
+   padding-right: 3%;
+   font-size: 1.7em;
+}
+
+.caixa-conteudo-primario{
+    margin-top: 1%;
+    color: black;
+    padding-bottom: 1%;
+    background-color: lightgray;
+
+}
+
+.filmes{
+    width: 50%;
+    margin-left: 24%;
+    padding-top: 1%;
+    /*padding-left: 23%;*/
+    margin-bottom: 4%;
+}
+
+h2{
+    background: url(/img/fundo.png);
+    text-align: center;
+    padding: 1%;
+}
+
+/* Formatando menus laterais */ 
+
+#lateral ul a{
+    font-size: 1.2em;
+    display: block;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(/img/marcador.png) no-repeat left center;
+    padding-left: 25px;
+    color: #a1a1a1;
+    
+}
+
+.conteudo{
+    text-align: center;
+    padding-top: 3%;
+}
+
+
+.btn-success{
+    width: 20%;
+    margin-bottom: 3%;
+    margin-left: 40%;
+}
+
+
+.btn-warning{
+    width: 20%;
+    margin-bottom: 3%;
+    margin-left: 40%;
+}
+
+.compras{
+    background: green;
+    width: 30%;
+    border-radius: 20%;
+    margin-bottom: 3%;
+    margin-left: 33%;
+}
+
+
+#formulario{
+    padding-top: 7%;
+    padding-left: 45%;
+    padding-bottom: 11%;
+    
+    
+}
+
+
+.centralizar-botao{
+    padding: 6%;
+    margin-left: 25%;
+    
+}
+
+#loginformulario{
+    background:#f3f3f3;
+    padding: 4%;
+    margin: 2%;
+    margin-left: 39%;
+}
+
+#botao {
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    width: 50%;
+}
+
+h3{
+    text-align: center;
+}
+
+
+#cadastrousuario{
+    background:#f3f3f3;
+    padding: 4%;
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+h1{
+    text-align: center;
+}
+
+#ajusteformulario{
+    padding-top: 10%;
+}
+
+
+.moverbotao{
+    padding-bottom: 29.3%;
+    padding-left: 89%;
+}
